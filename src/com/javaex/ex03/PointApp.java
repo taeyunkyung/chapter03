@@ -14,6 +14,7 @@ public class PointApp {
 		System.out.println("==============================");
 		
 		System.out.println(a.equals(b)); // 재정의
+		System.out.println(a.equals(c));
 
 	}	
 

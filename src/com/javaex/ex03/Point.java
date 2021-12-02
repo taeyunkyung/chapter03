@@ -41,7 +41,14 @@ public class Point {
 
 	@Override
 	public boolean equals(Object obj) {
-		Point p = (Point)obj;
+		Point p = (Point) obj;
+
+		System.out.println("a.x= " + this.x);
+		System.out.println("a.y= " + this.y);
+		
+		System.out.println("b.x= "+p.x);
+		System.out.println("b.y= "+p.y);
+		
 		if ((this.x == p.x) && (this.y == p.y)) {
 			return true;
 		} else {
