@@ -1,6 +1,6 @@
 package com.javaex.ex06;
 
-public class StringApp03 {
+public class StringApp12 {
 
 	public static void main(String[] args) {
 		

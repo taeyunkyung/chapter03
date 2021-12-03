@@ -9,7 +9,7 @@ public class StringApp01 {
 		
 		System.out.println(str01 == str02); // false: 주소값 다름
 		
-		// 같음?: String 클래스에서 hashCode() 재정의(글자가 같으면 hashCode가 같도록, 비교하기 쉽게)
+		// 같음: String 클래스에서 hashCode() 재정의(글자가 같으면 hashCode가 같도록, 비교하기 쉽게)
 		System.out.println(str01.hashCode());
 		System.out.println(str02.hashCode());
 		

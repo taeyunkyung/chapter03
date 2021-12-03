@@ -37,6 +37,7 @@ public class StringApp02 {
 		
 		String r03 = str.substring(3, 8);
 		System.out.println(r03);
+		
 	}
 
 }
